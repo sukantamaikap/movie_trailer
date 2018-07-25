@@ -41,3 +41,7 @@ tmtagsHistory
 .bundle
 venv
 
+# project specific exclusion #
+#############################
+*.html
+

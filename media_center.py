@@ -8,27 +8,28 @@ midnight_in_paris = trailer.Movie('Midnight in Paris',
 
 pursuit_of_happiness = trailer.Movie('The Pursuit of Happiness',
                                      'A guy\'s fight to save his career and his family',
-                                     'https://en.wikipedia.org/wiki/The_Pursuit_of_Happyness#/media/File:Poster-pursuithappyness.jpg',
+                                     'https://upload.wikimedia.org/wikipedia/en/8/81/Poster-pursuithappyness.jpg',
                                      'https://www.youtube.com/watch?v=89Kq8SDyvfg')
 
 dark_knight = trailer.Movie('The Dark Knight',
                             'Batman\'s continued struggle to clean up the city of Gotham',
-                            'https://en.wikipedia.org/wiki/The_Dark_Knight_(film)#/media/File:Dark_Knight.jpg',
+                            'https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg',
                             'https://www.youtube.com/watch?v=EXeTwQWrcwY')
 
 schindlers_list = trailer.Movie('Schindler\'s List',
                                 'One man\'s fight to save jews from the Nazi gas chambers',
-                                'https://en.wikipedia.org/wiki/Schindler%27s_List#/media/File:Schindler%27s_List_movie.jpg',
+                                'https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg',
                                 'https://www.youtube.com/watch?v=gG22XNhtnoY')
 
 inception = trailer.Movie('Inception',
                           'Inside one\'s dream',
-                          'https://en.wikipedia.org/wiki/Inception#/media/File:Inception_(2010)_theatrical_poster.jpg',
+                          'https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg',
                           'https://www.youtube.com/watch?v=YoHD9XEInc0')
 
 interstellar = trailer.Movie('Interstellar',
                              'A quest to search for a habitable planet like earth',
-                             'https://en.wikipedia.org/wiki/Interstellar_(film)#/media/File:Interstellar_film_poster.jpg',
+                             'https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg',
                              'https://www.youtube.com/watch?v=zSWdZVtXT7E')
 movies = [midnight_in_paris, pursuit_of_happiness, dark_knight, schindlers_list, inception, interstellar]
+
 fresh_tomatoes.open_movies_page(movies)
