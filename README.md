@@ -13,6 +13,6 @@ This is term 2 project for Udacity Python Foundation course. This is a primitive
 
 # How to run it?
 Git clone this repo navigate to the root of the project and run as :
->> ipython media_center.py
+- ipython media_center.py
 or 
->> python media_center.py
+- python media_center.py
